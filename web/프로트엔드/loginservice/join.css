@@ -1,0 +1,31 @@
+h1
+{
+	position: relative;
+	text-align: center;
+}
+h2
+{
+	font-size: 100%;
+	position: relative;
+	text-align: center;	
+	right: 60px
+}
+h3
+{
+	font-size: 100%;
+	position: relative;
+	text-align: center;
+	right: 49px
+}
+h4
+{
+	font-size: 100%;
+	position: relative;
+	text-align: center;
+	right: 20px
+}
+p
+{
+	position: relative;
+	text-align: center;
+}

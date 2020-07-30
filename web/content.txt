@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta charset="UTF-8">
+	<title>HTML Tag Structure</title>
+</head>
+
+<body>
+
+	<h1>속성값의 따옴표</h1>
+	<p>속성값에 정말로 따옴표가 필요할까요?</p>
+	<img src="quotes.jpg" alt="이미지가 없어요"><br>
+	<img src="quotes.jpg" alt=이미지가 없어요>		//content 의 내용을 붙일떄는 "(따옴표가 필수)
+	
+</body>
+
+</html>
+
+->이미지가 없어도 요소에 따옴표가 옆으로 출력이됨 
+이미지가 없어요
+이미지가 (스페이스바를 누를때까지 출력이됨)

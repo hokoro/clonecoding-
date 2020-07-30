@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            table,th,td{
+                border: 1px solid black;
+                border-collapse: collapse ;
+            }
+            th, td{
+                padding: 15px;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>2개의 culumn 을 span</h2>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th = colspan="2">Telephone</th>
+            </tr>
+            <tr>
+                <td>Bill Gates</td>
+                <td>555 77 854</td>
+                <td>555 77 8550</td>
+            </tr>
+        </table>
+
+        <h2>2개의 row 를 span</h2>
+            <table>
+                <tr>
+                    <th>Name :</th>
+                    <td>Bill Gates</td>
+                </tr>
+                <tr>
+                    <th rowspan="2">Telephone:</th>
+                    <td>555 77 855</td>
+                </tr>
+
+                <tr>
+                    <td>555 77 855</td>
+            </table>
+    </body>
+</html>
